@@ -1,45 +1,18 @@
-[gd_scene load_steps=14 format=3 uid="uid://ctgkfrd58roax"]
+[gd_scene load_steps=6 format=3 uid="uid://ctgkfrd58roax"]
 
-[ext_resource type="Script" path="res://Scripts/Interaction/Metamorph.cs" id="1_ecd4v"]
 [ext_resource type="PackedScene" uid="uid://bmx2net320qqk" path="res://Prefabs/Player.tscn" id="2_51027"]
-[ext_resource type="Script" path="res://Scripts/Interaction/Item.cs" id="4_0yu1f"]
-
-[sub_resource type="SphereShape3D" id="SphereShape3D_ne7gx"]
-
-[sub_resource type="SphereMesh" id="SphereMesh_fbx70"]
+[ext_resource type="PackedScene" uid="uid://xvsistgq6c78" path="res://Prefabs/MimicItem.tscn" id="3_0uoxd"]
+[ext_resource type="PackedScene" uid="uid://b7bfbinjschab" path="res://Prefabs/CollectableItem.tscn" id="4_h62h8"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_tg0lq"]
 size = Vector3(1, 1, 0.0424805)
 
 [sub_resource type="QuadMesh" id="QuadMesh_khwf1"]
 
-[sub_resource type="BoxMesh" id="BoxMesh_cn8ar"]
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_nof53"]
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_45knu"]
-
-[sub_resource type="BoxMesh" id="BoxMesh_fmfaf"]
-
-[sub_resource type="BoxMesh" id="BoxMesh_bbdgc"]
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_7lgyg"]
-
 [node name="Node" type="Node"]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.537108, 0.843513, 0, -0.843513, 0.537108, 0, 7.41681, 0)
-
-[node name="Metamorph" type="RigidBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.00728, 1.64821, -2.87989)
-script = ExtResource("1_ecd4v")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Metamorph"]
-shape = SubResource("SphereShape3D_ne7gx")
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="Metamorph"]
-mesh = SubResource("SphereMesh_fbx70")
-skeleton = NodePath("../CollisionShape3D")
 
 [node name="Floor" type="StaticBody3D" parent="."]
 input_ray_pickable = false
@@ -59,34 +32,11 @@ transform = Transform3D(13.2153, 0, 0, 0, -1.90983e-06, 1.00345, 0, -43.6919, -4
 mesh = SubResource("QuadMesh_khwf1")
 skeleton = NodePath("../CollisionShape3D")
 
-[node name="Metamorph2" type="RigidBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00402212, 1.52225, 0.00247908)
-script = ExtResource("1_ecd4v")
-mesh = SubResource("BoxMesh_cn8ar")
-shape = SubResource("BoxShape3D_nof53")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Metamorph2"]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
-shape = SubResource("BoxShape3D_45knu")
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="Metamorph2"]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
-mesh = SubResource("BoxMesh_fmfaf")
-skeleton = NodePath("../CollisionShape3D")
-
 [node name="PlayerController" parent="." instance=ExtResource("2_51027")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0357763, 1.19447, 3.3683)
 
-[node name="Holdable Object" type="RigidBody3D" parent="." node_paths=PackedStringArray("CollisionShape")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.41748, 0.89703, 0)
-script = ExtResource("4_0yu1f")
-CollisionShape = NodePath("CollisionShape3D")
+[node name="MimicItem" parent="." instance=ExtResource("3_0uoxd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.17446, 0.923218, 0.148887)
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="Holdable Object"]
-transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)
-mesh = SubResource("BoxMesh_bbdgc")
-skeleton = NodePath("")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Holdable Object"]
-transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)
-shape = SubResource("BoxShape3D_7lgyg")
+[node name="CollectableItem" parent="." instance=ExtResource("4_h62h8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 1, 2)

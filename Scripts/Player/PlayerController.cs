@@ -84,14 +84,16 @@ public partial class PlayerController : CharacterBody3D
         Velocity = mNewVelocity;
 
 
-        // Mimic:
-        if (Input.IsMouseButtonPressed(MouseButton.Right) && cameraController != null && cameraController.IsLookingAtNode<Metamorph>(new Array<Rid> { GetRid() }, out Metamorph metamorph))
+        // Everything after here needs optimisation...
+
+        // Mimic: 
+        if (Input.IsMouseButtonPressed(MouseButton.Right) && cameraController != null && cameraController.IsLookingAtNode<MimicItem>(new Array<Rid> { GetRid() }, out MimicItem mimicItem))
         {
             inputHeldTime += (float)delta;
 
             if(inputHeldTime >= HOLD_DURATION)
             {
-                Mimic(metamorph);
+                Mimic(mimicItem);
             }
         }
         else
@@ -108,9 +110,9 @@ public partial class PlayerController : CharacterBody3D
 
 
         // Interaction: 
-        if (Input.IsMouseButtonPressed(MouseButton.Left) && cameraController != null && cameraController.IsLookingAtNode<Item>(new Array<Rid> { GetRid() }, out Item item))
+        if (Input.IsMouseButtonPressed(MouseButton.Left) && cameraController != null && cameraController.IsLookingAtNode<CollectableItem>(new Array<Rid> { GetRid() }, out CollectableItem collectableItem))
         {
-            handController?.Hold(item);
+            handController?.Hold(collectableItem);
         }
         if (Input.IsKeyPressed(Key.E) && handController != null)
         {
@@ -120,9 +122,9 @@ public partial class PlayerController : CharacterBody3D
         MoveAndSlide();
     }
 
-    public void Mimic(Metamorph metamorph)
+    public void Mimic(MimicItem mimicItem)
     {
-        meshInstance.Mesh = metamorph.Mesh;
-        collisionShape.Shape = metamorph.Shape;
+        meshInstance.Mesh = mimicItem.Mesh;
+        collisionShape.Shape = mimicItem.Shape;
     }
 }

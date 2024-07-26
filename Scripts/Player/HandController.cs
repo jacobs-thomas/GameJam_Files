@@ -5,7 +5,7 @@ using System.Diagnostics;
 public partial class HandController : Node3D
 {
 	// Instance Attributes:
-	private Item item;
+	private CollectableItem item;
 
 
 	// Properties:
@@ -44,7 +44,7 @@ public partial class HandController : Node3D
 		if(!IsHoldingItem) { return; }
     }
 
-    public void Hold(Item newItem)
+    public void Hold(CollectableItem newItem)
 	{
         /**
 		* Holds a new item with the hand.

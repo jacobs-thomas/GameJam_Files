@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\tomja\\Documents\\TestBuild\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|c:\\users\\tomja\\documents\\testbuild\\scripts\\interaction\\collectableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|solutionrelative:scripts\\interaction\\collectableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|c:\\users\\tomja\\documents\\testbuild\\scripts\\interaction\\mimicitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|solutionrelative:scripts\\interaction\\mimicitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|c:\\users\\tomja\\documents\\testbuild\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|solutionrelative:scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|c:\\users\\tomja\\documents\\testbuild\\scripts\\interaction\\iplayerinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|solutionrelative:scripts\\interaction\\iplayerinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|c:\\users\\tomja\\documents\\testbuild\\scripts\\resources\\playersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,40 +27,12 @@
       "RelativeMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|solutionrelative:scripts\\player\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|c:\\users\\tomja\\documents\\testbuild\\scripts\\morphable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|solutionrelative:scripts\\morphable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|c:\\users\\tomja\\documents\\testbuild\\scripts\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|solutionrelative:scripts\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|c:\\users\\tomja\\documents\\testbuild\\scripts\\player\\handcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|solutionrelative:scripts\\player\\handcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|c:\\users\\tomja\\documents\\testbuild\\scripts\\interaction\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|solutionrelative:scripts\\interaction\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|c:\\users\\tomja\\documents\\testbuild\\scripts\\interaction\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|solutionrelative:scripts\\interaction\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|c:\\users\\tomja\\documents\\testbuild\\scripts\\moveable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|solutionrelative:scripts\\moveable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|c:\\users\\tomja\\documents\\testbuild\\scripts\\interaction\\metamorph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|solutionrelative:scripts\\interaction\\metamorph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|c:\\users\\tomja\\documents\\testbuild\\scripts\\visualphysicsobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|solutionrelative:scripts\\visualphysicsobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|c:\\users\\tomja\\documents\\testbuild\\scripts\\inputaxis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|solutionrelative:scripts\\inputaxis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|c:\\users\\tomja\\documents\\testbuild\\scripts\\extensions\\inputaxis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49F8BD42-F39F-414C-A6C0-1E06E173E3A7}|TestBuild.csproj|solutionrelative:scripts\\extensions\\inputaxis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,24 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Morphable.cs",
-              "DocumentMoniker": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\Morphable.cs",
-              "RelativeDocumentMoniker": "Scripts\\Morphable.cs",
-              "ToolTip": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\Morphable.cs",
-              "RelativeToolTip": "Scripts\\Morphable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "CollectableItem.cs",
+              "DocumentMoniker": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\Interaction\\CollectableItem.cs",
+              "RelativeDocumentMoniker": "Scripts\\Interaction\\CollectableItem.cs",
+              "ToolTip": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\Interaction\\CollectableItem.cs",
+              "RelativeToolTip": "Scripts\\Interaction\\CollectableItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T18:28:51.752Z",
+              "WhenOpened": "2024-07-26T22:57:31.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "PlayerSettings.cs",
               "DocumentMoniker": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\Resources\\PlayerSettings.cs",
               "RelativeDocumentMoniker": "Scripts\\Resources\\PlayerSettings.cs",
@@ -83,24 +67,11 @@
               "RelativeToolTip": "Scripts\\Resources\\PlayerSettings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T22:28:16.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-25T22:28:16.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Moveable.cs",
-              "DocumentMoniker": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\Moveable.cs",
-              "RelativeDocumentMoniker": "Scripts\\Moveable.cs",
-              "ToolTip": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\Moveable.cs",
-              "RelativeToolTip": "Scripts\\Moveable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T16:57:26.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "CameraController.cs",
               "DocumentMoniker": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\Player\\CameraController.cs",
               "RelativeDocumentMoniker": "Scripts\\Player\\CameraController.cs",
@@ -108,48 +79,37 @@
               "RelativeToolTip": "Scripts\\Player\\CameraController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T16:53:53.36Z",
+              "WhenOpened": "2024-07-25T16:53:53.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPlayerInteractable.cs",
+              "DocumentMoniker": "C:\\USERS\\TOMJA\\DOCUMENTS\\TESTBUILD\\Scripts\\Interaction\\IPlayerInteractable.cs",
+              "RelativeDocumentMoniker": "Scripts\\Interaction\\IPlayerInteractable.cs",
+              "ToolTip": "C:\\USERS\\TOMJA\\DOCUMENTS\\TESTBUILD\\Scripts\\Interaction\\IPlayerInteractable.cs",
+              "RelativeToolTip": "Scripts\\Interaction\\IPlayerInteractable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T16:48:56.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MimicItem.cs",
+              "DocumentMoniker": "C:\\USERS\\TOMJA\\DOCUMENTS\\TESTBUILD\\Scripts\\Interaction\\MimicItem.cs",
+              "RelativeDocumentMoniker": "Scripts\\Interaction\\MimicItem.cs",
+              "ToolTip": "C:\\USERS\\TOMJA\\DOCUMENTS\\TESTBUILD\\Scripts\\Interaction\\MimicItem.cs",
+              "RelativeToolTip": "Scripts\\Interaction\\MimicItem.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwDUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T16:48:32.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\Interaction\\Item.cs",
-              "RelativeDocumentMoniker": "Scripts\\Interaction\\Item.cs",
-              "ToolTip": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\Interaction\\Item.cs",
-              "RelativeToolTip": "Scripts\\Interaction\\Item.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAA4AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T16:50:07.743Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Interactable.cs",
-              "DocumentMoniker": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\Interaction\\Interactable.cs",
-              "RelativeDocumentMoniker": "Scripts\\Interaction\\Interactable.cs",
-              "ToolTip": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\Interaction\\Interactable.cs",
-              "RelativeToolTip": "Scripts\\Interaction\\Interactable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T16:48:56.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Metamorph.cs",
-              "DocumentMoniker": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\Interaction\\Metamorph.cs",
-              "RelativeDocumentMoniker": "Scripts\\Interaction\\Metamorph.cs",
-              "ToolTip": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\Interaction\\Metamorph.cs",
-              "RelativeToolTip": "Scripts\\Interaction\\Metamorph.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T16:48:32.169Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Inventory.cs",
               "DocumentMoniker": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\Inventory\\Inventory.cs",
               "RelativeDocumentMoniker": "Scripts\\Inventory\\Inventory.cs",
@@ -162,74 +122,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Scripts\\Player\\PlayerController.cs",
               "ToolTip": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\Player\\PlayerController.cs",
               "RelativeToolTip": "Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAAAHMAAAAJAAAA",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAHIAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T10:14:55.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "VisualPhysicsObject.cs",
-              "DocumentMoniker": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\VisualPhysicsObject.cs",
-              "RelativeDocumentMoniker": "Scripts\\VisualPhysicsObject.cs",
-              "ToolTip": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\VisualPhysicsObject.cs",
-              "RelativeToolTip": "Scripts\\VisualPhysicsObject.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAAABcAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T10:01:55.017Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "InputAxis.cs",
-              "DocumentMoniker": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\InputAxis.cs",
-              "RelativeDocumentMoniker": "Scripts\\InputAxis.cs",
-              "ToolTip": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\InputAxis.cs",
-              "RelativeToolTip": "Scripts\\InputAxis.cs",
+              "DocumentMoniker": "C:\\USERS\\TOMJA\\DOCUMENTS\\TESTBUILD\\Scripts\\Extensions\\InputAxis.cs",
+              "RelativeDocumentMoniker": "Scripts\\Extensions\\InputAxis.cs",
+              "ToolTip": "C:\\USERS\\TOMJA\\DOCUMENTS\\TESTBUILD\\Scripts\\Extensions\\InputAxis.cs",
+              "RelativeToolTip": "Scripts\\Extensions\\InputAxis.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-20T17:49:03.67Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "2d9f96cc-5f87-40cd-b7d0-7c0ef8590f1c",
-        "Display": 0,
-        "X": 332,
-        "Y": 94,
-        "Width": 1596,
-        "Height": 964,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HandController.cs",
-              "DocumentMoniker": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\Player\\HandController.cs",
-              "RelativeDocumentMoniker": "Scripts\\Player\\HandController.cs",
-              "ToolTip": "C:\\Users\\tomja\\Documents\\TestBuild\\Scripts\\Player\\HandController.cs",
-              "RelativeToolTip": "Scripts\\Player\\HandController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAACQAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T10:42:41.567Z",
-              "EditorCaption": ""
             }
           ]
         }

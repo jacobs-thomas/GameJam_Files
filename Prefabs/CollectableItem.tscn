@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://b7bfbinjschab"]
+
+[ext_resource type="Script" path="res://Scripts/Interaction/CollectableItem.cs" id="1_tujco"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_tascn"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_c6ls2"]
+
+[node name="CollectableItem" type="RigidBody3D" node_paths=PackedStringArray("CollisionShape")]
+script = ExtResource("1_tujco")
+CollisionShape = NodePath("CollisionShape3D")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)
+mesh = SubResource("BoxMesh_tascn")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)
+shape = SubResource("BoxShape3D_c6ls2")

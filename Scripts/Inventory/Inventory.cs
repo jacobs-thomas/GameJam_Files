@@ -5,16 +5,16 @@ using System.Collections.Generic;
 public partial class Inventory : Node
 {
 	// Instance Attributes:
-	private List<Item> items = new List<Item>();
+	private List<CollectableItem> items = new List<CollectableItem>();
 
 
 	// Methods:
-	public void AddItem(Item item)
+	public void AddItem(CollectableItem item)
 	{
 		items.Add(item);
 	}
 
-	public void RemoveItem(Item item)
+	public void RemoveItem(CollectableItem item)
 	{
 		items.Remove(item);
 

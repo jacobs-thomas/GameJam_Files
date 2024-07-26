@@ -1,11 +1,17 @@
 ﻿using Godot;
 using System;
 
-public partial class Item : RigidBody3D, IPlayerInteractable
+public partial class CollectableItem : RigidBody3D, IPlayerInteractable
 {
+    /**
+    * Represents an item in the game that can be picked up by the player.
+    */
+
+
     // Properties:
-    [Export] public string ItemName { get; set; }
-    [Export] public string Description { get; set; }
+    [Export] private CollisionShape3D CollisionShape { set; get; }
+    [Export] public string ItemName { get; private set; }
+    [Export] public string Description { get; private set; }
     [Export] public bool IsPhysicsEnabled 
     {
         set
@@ -21,12 +27,10 @@ public partial class Item : RigidBody3D, IPlayerInteractable
         }
     }
 
-    [Export] public CollisionShape3D CollisionShape { private set; get; }
-
     // Methods:
     public void Interact(in PlayerController playerController)
     {
-        //playerController.handController.Hold(this);
+        // Testing purposes only.
         GD.Print("Item interaction invoked");
     }
 }
