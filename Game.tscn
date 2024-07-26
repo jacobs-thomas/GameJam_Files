@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://d0jvelih0qlm3"]
+
+[ext_resource type="Script" path="res://PlayerController.cs" id="1_g3fsu"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_v3hto"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_v46hr"]
+
+[node name="Game" type="Node2D"]
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.108829, 1.11402, -0.104559)
+script = ExtResource("1_g3fsu")
+MoveSpeed = 10.11
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.762377, 0)
+shape = SubResource("CapsuleShape3D_v3hto")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D/CollisionShape3D"]
+mesh = SubResource("CapsuleMesh_v46hr")
+skeleton = NodePath("../..")
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.27153, 0)

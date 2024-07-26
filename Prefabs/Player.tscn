@@ -1,0 +1,38 @@
+[gd_scene load_steps=7 format=3 uid="uid://bmx2net320qqk"]
+
+[ext_resource type="Script" path="res://Scripts/Player/CameraController.cs" id="1_dvbbp"]
+[ext_resource type="Script" path="res://Scripts/Player/PlayerController.cs" id="1_sdd2g"]
+[ext_resource type="Script" path="res://Scripts/Player/HandController.cs" id="3_gvun3"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_t1i4x"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_agbyn"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_b5em8"]
+
+[node name="PlayerController" type="CharacterBody3D" node_paths=PackedStringArray("handController", "meshInstance", "collisionShape", "cameraController")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.141, 0, 0)
+script = ExtResource("1_sdd2g")
+handController = NodePath("CameraController/HandController")
+meshInstance = NodePath("MeshInstance3D2")
+collisionShape = NodePath("CollisionShape3D2")
+cameraController = NodePath("CameraController")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_t1i4x")
+
+[node name="CameraController" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.956289, 0.292422, 0, -0.292422, 0.956289, 0, 0.607501, -0.140979)
+script = ExtResource("1_dvbbp")
+RotationSpeed = 10.0
+
+[node name="HandController" type="Node3D" parent="CameraController"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.251846, -0.253801, -0.508907)
+script = ExtResource("3_gvun3")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CameraController/HandController"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0)
+mesh = SubResource("SphereMesh_agbyn")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+mesh = SubResource("CapsuleMesh_b5em8")
