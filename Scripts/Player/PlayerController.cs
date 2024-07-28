@@ -108,17 +108,6 @@ public partial class PlayerController : CharacterBody3D
             collisionShape.Shape = playerShape;
         }
 
-
-        // Interaction: 
-        if (Input.IsMouseButtonPressed(MouseButton.Left) && cameraController != null && cameraController.IsLookingAtNode<CollectableItem>(new Array<Rid> { GetRid() }, out CollectableItem collectableItem))
-        {
-            handController?.Hold(collectableItem);
-        }
-        if (Input.IsKeyPressed(Key.E) && handController != null)
-        {
-            handController.Drop();
-        }
-
         MoveAndSlide();
     }
 

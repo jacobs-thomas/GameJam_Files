@@ -9,13 +9,5 @@ public interface IPlayerInteractable
 
 
     // Methods:
-    public virtual void Interact(in PlayerController playerController)
-    {
-        /**
-        * Method to be called when the player interacts with this object.
-        * @param player The player interacting with the object.
-        */
-
-
-    }
+    public abstract void Interact(in PlayerController playerController);
 }

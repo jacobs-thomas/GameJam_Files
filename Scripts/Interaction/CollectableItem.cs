@@ -1,5 +1,6 @@
 ﻿using Godot;
 using System;
+using System.Diagnostics;
 
 public partial class CollectableItem : RigidBody3D, IPlayerInteractable
 {
@@ -30,7 +31,8 @@ public partial class CollectableItem : RigidBody3D, IPlayerInteractable
     // Methods:
     public void Interact(in PlayerController playerController)
     {
-        // Testing purposes only.
-        GD.Print("Item interaction invoked");
+        Debug.Assert(playerController != null);
+
+        playerController.handController.Hold(this);
     }
 }

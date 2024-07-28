@@ -1,14 +1,17 @@
-[gd_scene load_steps=7 format=3 uid="uid://bmx2net320qqk"]
+[gd_scene load_steps=9 format=3 uid="uid://bmx2net320qqk"]
 
 [ext_resource type="Script" path="res://Scripts/Player/CameraController.cs" id="1_dvbbp"]
 [ext_resource type="Script" path="res://Scripts/Player/PlayerController.cs" id="1_sdd2g"]
 [ext_resource type="Script" path="res://Scripts/Player/HandController.cs" id="3_gvun3"]
+[ext_resource type="Script" path="res://Scripts/Interaction/InteractionManager.cs" id="4_ddive"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_t1i4x"]
 
 [sub_resource type="SphereMesh" id="SphereMesh_agbyn"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_b5em8"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_qc60s"]
 
 [node name="PlayerController" type="CharacterBody3D" node_paths=PackedStringArray("handController", "meshInstance", "collisionShape", "cameraController")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.141, 0, 0)
@@ -36,3 +39,11 @@ mesh = SubResource("SphereMesh_agbyn")
 
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
 mesh = SubResource("CapsuleMesh_b5em8")
+
+[node name="InteractionManager" type="Area3D" parent="." node_paths=PackedStringArray("PlayerController")]
+script = ExtResource("4_ddive")
+PlayerController = NodePath("..")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="InteractionManager"]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0)
+shape = SubResource("SphereShape3D_qc60s")
